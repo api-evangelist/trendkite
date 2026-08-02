@@ -1,7 +1,24 @@
 aid: trendkite
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trendkite.png
 name: TrendKite
-description: TrendKite is a company surfaced as a portfolio company of battery-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: TrendKite was an Austin, Texas PR and media intelligence platform founded in 2013 that used
+  AI and big-data analytics to measure the impact of earned media on brand reputation, website traffic, and
+  business goals. It was acquired by Cision in January 2019 for approximately $225 million and folded into
+  the Cision Communications Cloud. TrendKite no longer operates as an independent company. Its former domain
+  (trendkite.com) now redirects to cision.com, and no independent TrendKite developer portal, public API,
+  OpenAPI specification, SDKs, or /.well-known discovery surface exists. This profile is retained as a
+  historical portfolio-company record; there is no standalone API surface to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/trendkite/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +26,28 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: cision
+x-acquired-date: '2019-01-23'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Public Relations
+- Media Intelligence
+- Media Monitoring
+- Analytics
+- Earned Media
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
